@@ -15,8 +15,4 @@ print(list(set([1, 2, 3]) & set([2, 3, 4])))
 # 16. List Union
 print(list(set([1, 2]) | set([2, 3])))
 print("nizamuddin Tandel ")
-def nizam():
-    for i in range (1,10):
-        print("")
-    else:
-        print('')
+    
