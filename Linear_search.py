@@ -15,4 +15,5 @@ print(arr[1:] + arr[:1])
 
 # 11. Rotate List Right
 print(arr[-1:] + arr[:-1])
+print("A710131526013 ")
 print("nizamuddin Tandel ")
