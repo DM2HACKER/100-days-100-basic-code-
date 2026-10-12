@@ -15,3 +15,4 @@ print(f"the sum of the array is : {sum(arr)}")
 
 # 05. Average of Elements
 print(f"the average of array is : {sum(arr) / len(arr)}")
+print("hello world")
