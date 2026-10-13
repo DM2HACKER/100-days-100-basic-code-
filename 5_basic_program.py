@@ -16,3 +16,7 @@ a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 print(f"The largest number is: {max(a, b)}")
 
+# Celsius to Fahrenheit Converter
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9 / 5) + 32
+print(f"{celsius}°C is equal to {fahrenheit}°F")
