@@ -11,4 +11,8 @@ if num % 2 == 0:
 else:
   print(f"{num} is Odd")
 
-  
+#   Find the Largest of Two Numbers
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+print(f"The largest number is: {max(a, b)}")
+
