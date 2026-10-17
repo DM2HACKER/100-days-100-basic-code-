@@ -12,3 +12,10 @@ evens = sum(1 for n in numbers if n % 2 == 0)
 odds = len(numbers) - evens
 print(f"Even numbers count: {evens}")
 print(f"Odd numbers count: {odds}")
+
+# Remove All Punctuations from a String
+import string
+
+text = input("Enter a string with punctuation: ")
+clean_text = "".join(char for char in text if char not in string.punctuation)
+print(f"Cleaned string: {clean_text}")
