@@ -10,4 +10,11 @@ if text.isdigit():
   print("The string contains only digits.")
 else:
   print("The string does not contain only digits.")
-  
+
+# Transpose a Matrix (2D List)
+matrix = [[1, 2, 3], [4, 5, 6]]
+transpose = [
+    [matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))
+]
+print(f"Original: {matrix}")
+print(f"Transpose: {transpose}")
