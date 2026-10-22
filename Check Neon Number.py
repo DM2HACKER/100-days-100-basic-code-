@@ -12,3 +12,4 @@ list2 = [3, 4, 5, 6, 7]
 list3 = [5, 4, 8, 9, 3]
 common = list(set(list1) & set(list2) & set(list3))
 print(f"Common elements in all three lists: {common}")
+print("nizamuddin Tandel ")
