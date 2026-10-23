@@ -1,4 +1,5 @@
 # 12. Move Zeros to End
+# Changing it so that user can dynamically enter their own values for the following demonstration 
 z = [0, 1, 0, 3, 12]
 print([x for x in z if x != 0] + [0] * z.count(0))
 
