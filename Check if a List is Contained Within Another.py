@@ -6,3 +6,12 @@ is_sub = any(
     for i in range(len(main_list) - len(sub_list) + 1)
 )
 print(f"Is sublist present? {is_sub}")
+
+# Basic Stack Operations Using a List
+stack = []
+stack.append(10)  # Push
+stack.append(20)
+stack.append(30)
+print(f"Top element (Peek): {stack[-1]}")
+print(f"Popped element: {stack.pop()}")
+print(f"Remaining stack: {stack}")
