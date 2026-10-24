@@ -15,7 +15,19 @@ def linear_search(arr, target):
       return i
   return -1
 
+# Binary Search Implementation
+def binary_search(arr, target):
+  low, high = 0, len(arr) - 1
+  while low <= high:
+    mid = (low + high) // 2
+    if arr[mid] == target:
+      return mid
+    elif arr[mid] < target:
+      low = mid + 1
+    else:
+      high = mid - 1
+  return -1
 
-numbers = [10, 23, 45, 70, 11, 15]
-target = 70
-print(f"Element found at index: {linear_search(numbers, target)}")
+
+sorted_numbers = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+print(f"Element found at index: {binary_search(sorted_numbers, 23)}")
