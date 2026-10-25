@@ -30,3 +30,11 @@ while current:
   print(current.data, end=" -> ")
   current = current.next
 print("None")
+
+
+def nizam():
+  a = input("enter the number which is an value ")
+  if a == "lobot":
+    return "the vairable "
+  else:
+    print("the output is invalid ")
