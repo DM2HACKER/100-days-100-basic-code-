@@ -42,3 +42,25 @@ g.add_edge(1, 3)
 g.add_edge(2, 4)
 print(f"Adjacency List: {g.adj_list}")
 
+# Breadth-First Search (BFS) for Graphs
+from collections import deque
+
+
+def bfs(graph, start):
+  visited = set()
+  queue = deque([start])
+  visited.add(start)
+  result = []
+
+  while queue:
+    node = queue.popleft()
+    result.append(node)
+    for neighbor in graph.get(node, []):
+      if neighbor not in visited:
+        visited.add(neighbor)
+        queue.append(neighbor)
+  return result
+
+
+graph = {1: [2, 3], 2: [1, 4, 5], 3: [1], 4: [2], 5: [2]}
+print(f"BFS Traversal: {bfs(graph, 1)}")
