@@ -18,4 +18,4 @@ import string
 
 text = input("Enter a string with punctuation: ")
 clean_text = "".join(char for char in text if char not in string.punctuation)
-print(f"Cleaned string: {clean_text}")
+print(f"Cleaned string: {clean_text}")#this is coment for a push
