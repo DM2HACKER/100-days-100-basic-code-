@@ -10,3 +10,19 @@ def move_zeroes(nums):
 
 print(f"Moved zeroes: {move_zeroes([0, 1, 0, 3, 12])}")
 
+# Longest Common Prefix
+def longest_common_prefix(strs):
+  if not strs:
+    return ""
+  strs.sort()
+  first, last = strs[0], strs[-1]
+  min_len = min(len(first), len(last))
+  for i in range(min_len):
+    if first[i] != last[i]:
+      return first[:i]
+  return first[:min_len]
+
+
+print(
+    f"Longest common prefix: {longest_common_prefix(['flower', 'flow', 'flight'])}"
+)
