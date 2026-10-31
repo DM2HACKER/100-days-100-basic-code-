@@ -21,3 +21,18 @@ def majority_element(nums):
 
 print(f"Majority element: {majority_element([2, 2, 1, 1, 1, 2, 2])}")
 
+# Intersection of Two Arrays
+from collections import Counter
+
+
+def intersect(nums1, nums2):
+  c1 = Counter(nums1)
+  res = []
+  for num in nums2:
+    if c1[num] > 0:
+      res.append(num)
+      c1[num] -= 1
+  return res
+
+
+print(f"Intersection: {intersect([1, 2, 2, 1], [2, 2])}")
