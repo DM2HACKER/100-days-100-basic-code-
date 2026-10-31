@@ -12,3 +12,4 @@ def first_uniq_char(s):
 
 print(f"First unique character index: {first_uniq_char('leetcode')}")
 
+# Palindrome Linked List
