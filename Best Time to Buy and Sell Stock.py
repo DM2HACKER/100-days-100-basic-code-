@@ -28,3 +28,11 @@ nums = [1, 1, 2]
 k = remove_duplicates(nums)
 print(f"New length: {k}, Array: {nums[:k]}")
 
+# Rotate Array
+def rotate(nums, k):
+  k %= len(nums)
+  nums[:] = nums[-k:] + nums[:-k]
+  return nums
+
+
+print(f"Rotated array: {rotate([1, 2, 3, 4, 5, 6, 7], 3)}")
