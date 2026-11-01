@@ -10,3 +10,14 @@ def plus_one(digits):
 
 print(f"Plus one result: {plus_one([1, 2, 9])}")
 
+# Fibonacci Number (Iterative DP)
+def fib(n):
+  if n <= 1:
+    return n
+  a, b = 0, 1
+  for _ in range(2, n + 1):
+    a, b = b, a + b
+  return b
+
+
+print(f"10th Fibonacci number: {fib(10)}")
