@@ -22,3 +22,5 @@ root.left = TreeNode(2)
 root.right = TreeNode(3)
 
 print(f"Inorder Traversal: {inorder_traversal(root)}")
+
+# this is an binary tree In-order travesal 
