@@ -18,6 +18,9 @@ class Node:
     self.next = None
 
 
+#this is an varaity of code but this code has a O(n) time complexity 
+
+
 # Create nodes
 head = Node(10)
 head.next = Node(20)
