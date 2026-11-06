@@ -22,3 +22,4 @@ fahrenheit = (celsius * 9 / 5) + 32
 print(f"{celsius}°C is equal to {fahrenheit}°F")
 
 print("NIZAMUDDIN ")
+#using git this is an issue to resolve it you just need to give me a pull requesst
