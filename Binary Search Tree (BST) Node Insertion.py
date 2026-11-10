@@ -22,4 +22,4 @@ for v in [50, 30, 70, 20, 40]:
   root = insert(root, v)
 
 print(f"BST Root Node: {root.val}")
-print(f"Left Child of Root: {root.left.val}")
+print(f"Left Child of Root: {root.left.val}")#hello developer
