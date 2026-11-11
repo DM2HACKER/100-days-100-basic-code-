@@ -17,3 +17,4 @@ for i in range(n):
         break
 if found==False:
     print("It is not Found")
+#search element using linear search 
