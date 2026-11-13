@@ -16,6 +16,7 @@ class Node:
   def __init__(self, data):
     self.data = data
     self.next = None
+#this is only comment 
 
 
 #this is an varaity of code but this code has a O(n) time complexity 
