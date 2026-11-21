@@ -17,4 +17,3 @@ for num in range(max(2, lower), upper + 1):
   else:
     print(num, end=" ")
 print()
-#124587
